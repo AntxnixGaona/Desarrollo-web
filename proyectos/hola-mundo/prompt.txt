@@ -1,0 +1,10 @@
+Crea una pagina web Hola Mundo con HTML, CSS y JavaScript.
+Debe mostrar el titulo "Hola Mundo", una breve bienvenida y un boton
+"Saludar" que cambie un mensaje visible, sin usar alert.
+Usa un estilo moderno, adaptable a movil y escritorio, accesible y sin
+librerias ni recursos externos. Guarda index.html, styles.css y script.js
+en la carpeta proyectos/hola-mundo, desde la raiz del entorno agentes.
+Delega obligatoriamente la implementacion a frontend-developer,
+la revision a code-reviewer y las pruebas a qa-tester.
+Corrige los fallos encontrados y explica como abrir la pagina.
+Informa las pruebas realmente ejecutadas y cualquier limitacion.

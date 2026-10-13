@@ -1,0 +1,16 @@
+# .gitignore — demo-inventario
+# Evita versionar secretos locales y artefactos generados por la Supabase CLI.
+# La pila local es reproducible con `supabase start` + `supabase db reset --local`,
+# así que nada de lo ignorado aquí necesita estar en el repositorio.
+
+# Artefactos/estado generados por la Supabase CLI (locales)
+supabase/.temp/
+supabase/.branches/
+
+# Variables de entorno y secretos (nunca versionar)
+.env
+.env.*
+
+# Artefactos de build/dependencias habituales (por si se añade una app)
+node_modules/
+dist/
